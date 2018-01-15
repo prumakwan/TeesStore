@@ -1,0 +1,66 @@
+body {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #ffeb3b;
+	font-size: large;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus
+	{
+	background-color: #eed500;
+	border: 1px solid black;
+}
+
+.product-text {
+	font-family: 'Anton', sans-serif;
+}
+
+.product-button {
+	font-family: 'Jura', sans-serif;
+}
+
+.cen {
+	text-align: center;
+}
+
+.navbar {
+	margin-bottom: 20px;
+}
+
+.navbar-inverse {
+	background-image: url("/images/head-back.png");
+	background-repeat: repeat;
+}
+
+.navbar-nav li a {
+	color: white !important;
+	font-family: 'Monoton', cursive;
+	font-size: large;
+}
+
+.dropdown-menu>li>a {
+	color: white !important;
+	background-color: black;
+	font-family: 'Changa', sans-serif;
+}
+
+.dropdown-menu>li>a:hover {
+	color: black !important;
+	background-color: white;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover,
+	.navbar-inverse .navbar-nav>.active>a:focus {
+	color: black !important;
+	background-color: transparent;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+	color: black !important;
+}
+
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover,
+	.navbar-inverse .navbar-nav>.open>a:focus {
+	color: #fff !important;
+	background-color: #080808;
+}
