@@ -4,48 +4,52 @@
 
 <body>
 	<div th:replace="common/header :: navbar"></div>
-	<div class="container" style="padding-top: 50px;">
+	<div th:fragment="caros">
+		<div class="container" style="padding-top: 50px;">
 
-		<div id="carousel-example-generic" class="carousel slide"
-			data-ride="carousel">
-			<!-- Indicators -->
-			<ol class="carousel-indicators">
-				<li data-target="#carousel-example-generic" data-slide-to="0"
-					class="active"></li>
-				<li data-target="#carousel-example-generic" data-slide-to="1"></li>
-				<li data-target="#carousel-example-generic" data-slide-to="2"></li>
-			</ol>
+			<div id="carousel-example-generic" class="carousel slide"
+				data-ride="carousel">
+				<!-- Indicators -->
+				<ol class="carousel-indicators">
+					<li data-target="#carousel-example-generic" data-slide-to="0"
+						class="active"></li>
+					<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+					<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+					<li data-target="#carousel-example-generic" data-slide-to="3"></li>
+				</ol>
 
-			<!-- Wrapper for slides -->
-			<div class="carousel-inner" role="listbox">
-				<div class="item active">
-					<img src="/images/got.jpg" width="1150" alt="..." />
-
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner" role="listbox">
+					<div class="item active">
+						<img
+							src="https://www.redwolf.in/image/cache/catalog/sliders/breaking-bad-t-shirts-india-1122x400.jpg.pagespeed.ce.Vkl0xhjUZf.jpg"
+							width="1150" />
+					</div>
+					<div class="item">
+						<img
+							src="https://www.redwolf.in/image/cache/catalog/sliders/harry-potter-slider-1122x400.png"
+							width="1150" />
+					</div>
+					<div class="item">
+						<img src="https://preview.ibb.co/fiFJ96/got.jpg" width="1150" />
+					</div>
+					<div class="item">
+						<img
+							src="https://www.redwolf.in/image/cache/catalog/sliders/redwolf-cool-t-shirts-banner-1122x400.jpg"
+							width="1150" />
+					</div>
 				</div>
-				<div class="item">
-					<img
-						src="https://www.redwolf.in/image/cache/catalog/sliders/harry-potter-slider-1122x400.png"
-						width="1150" alt="..." />
-
-				</div>
-				<div class="item">
-					<img
-						src="https://www.redwolf.in/image/cache/catalog/sliders/redwolf-cool-t-shirts-banner-1122x400.jpg"
-						width="1150" alt="..." />
-
-				</div>
+				<!-- Controls -->
+				<a class="left carousel-control" href="#carousel-example-generic"
+					role="button" data-slide="prev"> <span
+					class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</a> <a class="right carousel-control" href="#carousel-example-generic"
+					role="button" data-slide="next"> <span
+					class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
 			</div>
-
-			<!-- Controls -->
-			<a class="left carousel-control" href="#carousel-example-generic"
-				role="button" data-slide="prev"> <span
-				class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-				<span class="sr-only">Previous</span>
-			</a> <a class="right carousel-control" href="#carousel-example-generic"
-				role="button" data-slide="next"> <span
-				class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-				<span class="sr-only">Next</span>
-			</a>
 		</div>
 	</div>
 	<hr />

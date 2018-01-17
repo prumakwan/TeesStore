@@ -28,7 +28,8 @@ body {
 }
 
 .navbar-inverse {
-	background-image: url("/images/head-back.png");
+	background-image:
+		url("https://www.redwolf.in/catalog/view/theme/redwolf/image/header/repeating-texture.png");
 	background-repeat: repeat;
 }
 

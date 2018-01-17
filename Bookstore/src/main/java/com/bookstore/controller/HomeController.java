@@ -11,13 +11,20 @@ public class HomeController {
 	public String index() {
 		return "index";
 	}
-	@RequestMapping("/myAcc")
-	public String myAcc() {
-		return "myAcc";
-	}
+		
 	@RequestMapping("/login")
 	public String login(Model model) {
 		model.addAttribute("classActiveLogin", true);
+		return "myAcc";
+	}
+	@RequestMapping("/forgetPassword")
+	public String forgetPassword(Model model) {
+		model.addAttribute("classActiveForgetPassword", true);
+		return "myAcc";
+	}
+	@RequestMapping("/newUser")
+	public String newUser(Model model) {
+		model.addAttribute("classActiveNewUser", true);
 		return "myAcc";
 	}
 
